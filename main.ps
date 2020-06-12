@@ -1,0 +1,38 @@
+/inch {60 mul} def
+
+/circle { 8 inch 8 inch 54 0 360 arc stroke } def
+
+%newpath
+%1 inch 1 inch moveto
+%1 inch 3 inch rlineto
+%5 setlinewidth
+%stroke
+%closepath
+newpath
+1 setlinewidth
+%circle
+.6 setgray
+%fill
+
+%newpath
+%3 inch 3 inch moveto
+3 inch 3 inch 1.5 inch 0 360 arc
+%0.3 setgray
+%fill
+
+3 inch 6 inch 1.5 inch 0 360 arc
+%0.6 setgray
+%fill
+
+6 inch 3 inch 1.5 inch 0 360 arc
+%0.3 setgray
+%fill
+
+6 inch 6 inch 1.5 inch 0 360 arc
+%0.6 setgray
+fill
+
+.3 setlinewidth
+stroke
+
+
